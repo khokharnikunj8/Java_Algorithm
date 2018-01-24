@@ -6,7 +6,7 @@ import java.util.*;
  * Created by nikunj on 14/5/17.
  */
 public class Breadth_First_Search {
-    public static LinkedList<Integer> Breadth_First_Search(LinkedList<Integer>edges[],int vertex,int vertext_total)
+    public static LinkedList<Integer> Breadth_First_Search(LinkedList<Integer>edges[],int vertex,int vertex_total)
     {
         int temp_edge;
         LinkedList<Integer>transversal=new LinkedList<Integer>();
