@@ -10,7 +10,7 @@ public class Breadth_First_Search {
     {
         int temp_edge;
         LinkedList<Integer>transversal=new LinkedList<Integer>();
-        boolean visited[]=new boolean[vertext_total+1];
+        boolean visited[]=new boolean[vertex_total+1];
         LinkedList<Integer> queue = new<Integer> LinkedList();
         visited[vertex]=true;
         queue.add(vertex);
