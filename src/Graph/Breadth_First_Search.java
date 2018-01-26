@@ -6,11 +6,11 @@ import java.util.*;
  * Created by nikunj on 14/5/17.
  */
 public class Breadth_First_Search {
-    public static LinkedList<Integer> Breadth_First_Search(LinkedList<Integer>edges[],int vertex,int vertext_total)
+    public static LinkedList<Integer> Breadth_First_Search(LinkedList<Integer>edges[],int vertex,int vertex_total)
     {
         int temp_edge;
         LinkedList<Integer>transversal=new LinkedList<Integer>();
-        boolean visited[]=new boolean[vertext_total+1];
+        boolean visited[]=new boolean[vertex_total+1];
         LinkedList<Integer> queue = new<Integer> LinkedList();
         visited[vertex]=true;
         queue.add(vertex);
